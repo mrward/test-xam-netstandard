@@ -1,0 +1,16 @@
+﻿<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Test.Xam.NetStandard</id>
+    <version>1.0.0</version>
+    <authors>Matt Ward</authors>
+    <owners>Matt Ward</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Test NuGet package containing .NET Standard assemblies.</description>
+  </metadata>
+  <files>
+    <file src="bin/Debug/*.dll" target="lib/netstandard10" />
+    <file src="bin/Debug/*.dll" target="lib/netstandard13" />
+    <file src="bin/Debug/*.dll" target="lib/netstandard15" />
+    <file src="bin/Debug/*.dll" target="lib/netstandard16" />
+  </files>
+</package>
